@@ -8,4 +8,4 @@ DU= Período*21
 TxD = (1+TxAA/100)**(1/252) -1
 TxSD = TxD*CDI
 VF = Vi*(1+TxSD/100)**DU
-print(f'O valor finaldo investimento é: {VF:.2f}')
+print(f'O valor final do investimento é: {VF:.2f}')
