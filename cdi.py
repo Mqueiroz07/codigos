@@ -1,4 +1,4 @@
-TxAA = 13.90
+TxAA = 13.65
 
 Vi = float(input("Digite o valor do investimento: "))
 CDI = float(input("Digite quantos porcento do CDI: "))
