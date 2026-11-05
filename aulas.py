@@ -90,7 +90,7 @@ if result is not None:
 print()'''
 
 #AULA 01/10
-num1 = float(input('Digite o número: '))
+'''num1 = float(input('Digite o número: '))
 
 if num1% 5 == 0:
     mult5=', múltiplo de 5'
@@ -107,7 +107,67 @@ if num1 >0:
 
 elif num1<0:
     sinal="Negativo."
-    print(f'O número é {sinal}.')
+    print(f'O número é {sinal}')
 
 elif num1 ==0:
-    print("O número é zero.")
+    print("O número é zero.")'''
+
+#CALCULADORA DE DATA
+
+
+'''while True:
+        dia, mes, ano = map(int, input("\nDigite a data a verificar no formato xx/xx/xxxx:").split("/"))
+
+        if 1<=mes<=12 and 0<=ano:
+            continue
+        
+
+            if mes in [1,3,5,7,8,10,12] and mes !=2:
+                1<=dia<=31
+            else:
+                1<=dia<=30
+
+
+            if ano % 4 ==0 and ano %100!=0 or ano %400==0:
+                bissexto = True
+            else:
+                bissexto = False
+
+            if bissexto == True:
+                if mes == 2:
+                    1<=dia<=29
+            else: 
+                if mes == 2:
+                    1<=dia<=28
+            
+                print("\nData válida")
+           
+        else:
+             print("Data inválida")
+        break
+           
+else :
+    print("\nValor inválido, tente novamente")'''
+
+
+
+'''for linha in range(3):
+    for coluna in range(3):
+        print('#',end='')
+    print()'''
+
+
+'''for linha in range(3):
+    for coluna in range(3):
+        print(linha, coluna, "")
+    print()'''
+
+
+'''matriz= [
+    [0,0,0],
+    [0,0,0],
+    [0,0,0]
+]
+
+for a in matriz:
+    print(a)'''
